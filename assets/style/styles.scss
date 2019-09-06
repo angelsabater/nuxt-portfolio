@@ -1,0 +1,30 @@
+.theme--light.application {
+  background-color: white;
+}
+
+.theme--light.v-toolbar {
+  background-color: white;
+}
+
+.theme--light.v-footer {
+  background-color: white;
+}
+
+.v-toolbar__content, .v-toolbar__extension {
+  align-items: center;
+  display: flex;
+  margin: 0 150px;
+}
+
+.v-btn--active {
+  text-decoration: line-through;
+  background: white;
+}
+
+.v-btn--active:before, .v-btn:hover:before, .v-btn:focus:before {
+  background: transparent;
+}
+
+.v-btn, .v-btn--flat, .v-btn:hover, .v-btn:focus {
+  background: transparent;
+}
