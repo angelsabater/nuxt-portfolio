@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _21140f9f = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */))
-const _40cbea64 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
-const _74ed14c3 = () => interopDefault(import('..\\pages\\_lang\\index.vue' /* webpackChunkName: "pages__lang_index" */))
-const _553539fe = () => interopDefault(import('..\\pages\\_lang\\about.vue' /* webpackChunkName: "pages__lang_about" */))
+const _0d8ac546 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */))
+const _2d42a00b = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _9f55f588 = () => interopDefault(import('..\\pages\\_lang\\index.vue' /* webpackChunkName: "pages__lang_index" */))
+const _dec5ab12 = () => interopDefault(import('..\\pages\\_lang\\about.vue' /* webpackChunkName: "pages__lang_about" */))
 
 Vue.use(Router)
 
@@ -83,19 +83,19 @@ export function createRouter() {
 
     routes: [{
       path: "/about",
-      component: _21140f9f,
+      component: _0d8ac546,
       name: "about"
     }, {
       path: "/",
-      component: _40cbea64,
+      component: _2d42a00b,
       name: "index"
     }, {
       path: "/:lang",
-      component: _74ed14c3,
+      component: _9f55f588,
       name: "lang"
     }, {
       path: "/:lang/about",
-      component: _553539fe,
+      component: _dec5ab12,
       name: "lang-about"
     }],
 

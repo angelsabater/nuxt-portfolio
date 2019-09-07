@@ -7,22 +7,25 @@
       sm8
       md6
       pa-5
+      data-aos="zoom-in-down"
+		  data-aos-once="true"
     >
     <v-card flat
       class="mx-lg-auto">
       <v-card-text class="display-2 font-weight-thin">
-        Hi, I'm Angel.
+        {{$t('header')}}
       </v-card-text>
       <v-card-text class="subtitle-1 font-weight-regular">
-        A back-end web developer based in Tokyo, Japan. <br/>
-        Mainly involve with back-end development and contributes in database management.
+        {{$t('description')}} <br/>
+        {{$t('sub-description')}}
       </v-card-text>
     </v-card>
     </v-flex>
-
+    <v-divider></v-divider>
     <v-flex pa-4>
       <Works/>
     </v-flex>
+    <v-divider></v-divider>
   </v-layout>
 </template>
 

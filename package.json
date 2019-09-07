@@ -1,8 +1,8 @@
 {
   "name": "online_portfolio",
   "version": "1.0.0",
-  "description": "Source Code for my Online Portfolio",
-  "author": "Vince Norman C. Millora",
+  "description": "An online portfolio made with Nuxt.js",
+  "author": "Angel Lynn",
   "private": true,
   "scripts": {
     "dev": "nuxt",

@@ -6,29 +6,24 @@
         <nuxt />
       </v-container>
     </v-content>
+    <Footer/>
   </v-app>
 </template>
 
 <script>
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
+import AOS from "aos"
+import 'aos/dist/aos.css'
 
 export default {
   components: {
     Nav,
     Footer
   },
-  computed: {
-     otherLang() {
-       return this.$i18n.locale == 'ja' ? 'en' : 'ja';
-     }
-   },
-   methods: {
-     changeLang() {
-       const router = this.$router;
-       this.$store.dispatch('changeLang', { router, lang: this.otherLang })
-     }
-   }
+  mounted(){
+    AOS.init();
+  }
 }
 </script>
 

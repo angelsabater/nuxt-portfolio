@@ -13,7 +13,6 @@ export const state = () => ({
   
   export const actions = {
     changeLang(_, {router, lang}) {
-      // ちゃんとやるならroute情報を貰って正規表現であれする
       router.replace(`/${lang}`)
     }
   }

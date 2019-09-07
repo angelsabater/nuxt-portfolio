@@ -3,7 +3,7 @@ import Meta from 'vue-meta'
 import { createRouter } from './router.js'
 import NoSsr from './components/no-ssr.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from './components/nuxt-error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -11,7 +11,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_vuetify_026936c6 from 'nuxt_plugin_vuetify_026936c6' // Source: .\\vuetify.js (mode: 'all')
+import nuxt_plugin_vuetify_440c0d82 from 'nuxt_plugin_vuetify_440c0d82' // Source: .\\vuetify.js (mode: 'all')
 import nuxt_plugin_i18n_1fba523a from 'nuxt_plugin_i18n_1fba523a' // Source: ..\\plugins\\i18n.js (mode: 'all')
 
 // Component: <NoSsr>
@@ -148,8 +148,8 @@ async function createApp(ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_vuetify_026936c6 === 'function') {
-    await nuxt_plugin_vuetify_026936c6(app.context, inject)
+  if (typeof nuxt_plugin_vuetify_440c0d82 === 'function') {
+    await nuxt_plugin_vuetify_440c0d82(app.context, inject)
   }
 
   if (typeof nuxt_plugin_i18n_1fba523a === 'function') {

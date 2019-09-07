@@ -1,3 +1,45 @@
 {
-    "hello": "Hello!"
+    "header": "Hi, I'm Angel.",
+    "description": "A back-end web developer based in Tokyo, Japan.",
+    "sub-description": "Mainly involve with back-end development and contributes in database management.",
+    "nav": {
+        "works": "works",
+        "workLink": "/",
+        "about": "about",
+        "aboutLink": "/about",
+        "resume": "résumé"
+    },
+    "works": {
+        "tab1": {
+            "id": null,
+            "image": "/yonmoque.jpg",
+            "title": "Yonmoque 🎮",
+            "description": "Creating a mobile application version for a japanese board game owned by Logy Games. A multi-player board game combining Shogu (Japanese Chess) and Othello (Reversi).", 
+            "tools": ["/react-native.png", "/expo.png", "/google.png"]
+        },
+        "tab2": {
+            "id": null,
+            "image": "/jflearn.jpg",
+            "title": "Babel Method 👩‍🏫",
+            "description": "An E-learning website aiming to teach foreigners especially those who are under japanese companies. Basically in charge of database administration and adding main functions. Also contributing in file management using AWS.", 
+            "tools": ["/node.png", "/sql.png"]
+        },
+        "tab3": {
+            "id": null,
+            "image": "/dnus.jpg",
+            "title": "DNUS 🌏",
+            "description": "Considered a business-to-business (B2B) website specializing in hiring foreigners.", 
+            "tools": ["/ruby.png", "/sql.png"]
+        },
+        "tab4": {
+            "id": null,
+            "image": "/wmh.jpg",
+            "title": "WMH Reservation & Billing System 🏢",
+            "description": "ASDASDA", 
+            "tools": ["/php.png", "/sql.png"]
+        }
+    },
+    "about": {
+        "name": "Angel Lynn Sabater"
+    }
 }
