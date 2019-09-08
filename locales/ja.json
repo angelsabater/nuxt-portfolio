@@ -14,6 +14,7 @@
             "id": null,
             "image": "/yonmoque.jpg",
             "title": "Yonmoque 🎮",
+            "status": "開発中",
             "description": "「ヨンモク」という2人で対戦するボードゲームのモバイルアプリ版を作っています。現在、ゲームロジックの作成と設計を行っています。完成したら、Googleストアにアップロードする予定です。", 
             "tools": ["/react-native.png", "/expo.png", "/google.png"]
         },
@@ -21,6 +22,7 @@
             "id": null,
             "image": "/jflearn.jpg",
             "title": "Babel Method 👩‍🏫",
+            "status": "開発中",
             "description": "「Babel Method」という日本語学習プロジェクトのバックエンドチームに参加しています。データベースに関する開発と機能の開発を担当しています。", 
             "tools": ["/node.png", "/sql.png"]
         },
@@ -28,6 +30,7 @@
             "id": null,
             "image": "/dnus.jpg",
             "title": "DNUS 🌏",
+            "status": "終わった",
             "description": "Considered a business-to-business (B2B) website specializing in hiring foreigners.", 
             "tools": ["/ruby.png", "/sql.png"]
         },
@@ -35,6 +38,7 @@
             "id": null,
             "image": "/wmh.jpg",
             "title": "WMH Reservation & Billing System 🏢",
+            "status": "終わった",
             "description": "ASDASDA", 
             "tools": ["/php.png", "/sql.png"]
         }

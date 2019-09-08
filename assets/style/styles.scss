@@ -25,6 +25,19 @@ body {
   background: white;
 }
 
+.v-btn:before {
+  border-radius: inherit;
+  color: inherit;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  opacity: 0.12;
+  transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  width: 100%;
+}
+
 .v-btn--active:before, .v-btn:hover:before, .v-btn:focus:before {
   background: transparent;
 }
@@ -35,4 +48,21 @@ body {
 
 .v-toolbar__content, .v-toolbar__extension {
   margin: 0 150px;
+}
+
+.status {
+  border-radius: 2px;
+  background-color: rgb(123, 224, 123);
+  color: white;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  margin: 0 auto;
+  display: inline-block;
+  transition: .3s cubic-bezier(.25,.8,.5,1);
+  white-space: nowrap;
+  font-size: 13px;
+  width: 10vh;
+  height: 4vh;
+  text-align: center;
 }

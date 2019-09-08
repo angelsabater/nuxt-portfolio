@@ -29,9 +29,9 @@
         <v-card-text class="subtitle-1 font-weight-regular">
             20-year-old born and raised in the Philippines. Graduated college majoring Information Technology in University of the East located at Manila, Philippines. I started having interest with coding back in High School until I went to college and found myself more engaged with programming.<br/><br/>
 
-            Currently based in Tokyo, Japan. Starting my first job as a Junior Web Developer. I'm still exploring
-            my way in the technology world. I believe that we're all babies when it comes to technology having the fact that
-            something changes and develop each second in our own expanding world.
+            Currently based in Tokyo, Japan. Started my first job as a Junior Web Developer. Still exploring
+            my way in the technology world but also believes that we're all babies when it comes to technology knowing that
+            something changes each second in our own expanding world.
             
             <br/>
 
