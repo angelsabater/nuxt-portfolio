@@ -33,14 +33,6 @@
             "status": "終わった",
             "description": "Considered a business-to-business (B2B) website specializing in hiring foreigners.", 
             "tools": ["/ruby.png", "/sql.png"]
-        },
-        "tab4": {
-            "id": null,
-            "image": "/wmh.jpg",
-            "title": "WMH Reservation & Billing System 🏢",
-            "status": "終わった",
-            "description": "ASDASDA", 
-            "tools": ["/php.png", "/sql.png"]
         }
     },
     "about": {

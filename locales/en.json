@@ -36,15 +36,6 @@
             "description": "A business-to-business (B2B) website specializing in hiring foreigners owned by DOC Inc.", 
             "language": "Available in Japanese",
             "tools": ["/ruby.png", "/sql.png"]
-        },
-        "tab4": {
-            "id": null,
-            "image": "/wmh.jpg",
-            "status": "RELEASED",
-            "title": "WMH Reservation & Billing System 🏢",
-            "language": "Available in English",
-            "description": "ASDASDA", 
-            "tools": ["/php.png", "/sql.png"]
         }
     },
     "about": {
