@@ -10,12 +10,14 @@
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat text :href="$t('nav.workLink')"> {{$t('nav.works')}}</v-btn>
-        <v-btn flat text href="https://drive.google.com/file/d/1MjNEgL_LjTJQknlvfWtYsIXO4ly-8LyS/view" target="_blank">{{$t('nav.resume')}}</v-btn>
+        <v-btn flat text :href="$t('nav.aboutLink')"> {{$t('nav.about')}}</v-btn>
+        <v-btn flat text href="https://drive.google.com/file/d/1hXhAUlrdXJqpeqaaM7Sv7kzO3J81pATQ/view?usp=sharing" target="_blank">{{$t('nav.resume')}}</v-btn>
         <v-btn flat text @click="changeLang()">
           <v-img
               src="/language.png"
               max-width="30"
-              ></v-img></v-btn>
+              ></v-img>
+        </v-btn>
       </v-toolbar-items>
     </v-toolbar>
   </div>

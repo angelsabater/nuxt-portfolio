@@ -16,6 +16,7 @@
             "title": "Yonmoque 🎮",
             "status": "開発中",
             "description": "「ヨンモク」という2人で対戦するボードゲームのモバイルアプリ版を作っています。現在、ゲームロジックの作成と設計を行っています。完成したら、Googleストアにアップロードする予定です。", 
+            "language": "Available in Japanese",
             "tools": ["/react-native.png", "/expo.png", "/google.png"]
         },
         "tab2": {
@@ -24,6 +25,7 @@
             "title": "Babel Method 👩‍🏫",
             "status": "開発中",
             "description": "「Babel Method」という日本語学習プロジェクトのバックエンドチームに参加しています。データベースに関する開発と機能の開発を担当しています。", 
+            "language": "Available in Japanese",
             "tools": ["/node.png", "/sql.png"]
         },
         "tab3": {
@@ -32,7 +34,17 @@
             "title": "DNUS 🌏",
             "status": "終わった",
             "description": "Considered a business-to-business (B2B) website specializing in hiring foreigners.", 
+            "language": "Available in Japanese",
             "tools": ["/ruby.png", "/sql.png"]
+        },
+        "tab4": {
+            "id": null,
+            "image": "/wmh.jpg",
+            "title": "WMH 🏢",
+            "status": "RELEASED",
+            "description": "A business-to-business (B2B) website specializing in hiring foreigners owned by DOC Inc.", 
+            "language": "Available in English",
+            "tools": ["/php.png", "/sql.png"]
         }
     },
     "about": {
