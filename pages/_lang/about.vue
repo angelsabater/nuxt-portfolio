@@ -7,7 +7,6 @@
     <v-flex 
         xs12 
         md4 
-        pa-3 
         justify-center
         >
         <v-img
@@ -20,10 +19,16 @@
     <v-flex 
         xs12 
         md8 
-        pa-5
+        :pa-5="$vuetify.breakpoint.lg"
         justify-center
         >
-        <v-card-text class="display-1 font-weight-thin">
+        <v-card-text 
+          class="font-weight-thin"
+          v-bind:class="{
+            'display-1': !$vuetify.breakpoint.xs,
+            'headline': $vuetify.breakpoint.xs,
+          }"
+        >
             {{$t('about.name')}} 👩🏻‍💻<br/>
         </v-card-text>
         <v-card-text class="subtitle-1 font-weight-regular">

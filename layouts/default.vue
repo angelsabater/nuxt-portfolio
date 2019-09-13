@@ -2,7 +2,7 @@
   <v-app>
     <v-content>
       <Nav />
-      <v-container>
+      <v-container pa-3>
         <nuxt />
       </v-container>
     </v-content>

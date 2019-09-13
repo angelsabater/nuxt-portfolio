@@ -20,6 +20,12 @@ body {
   margin: 0 150px;
 }
 
+@media only screen and (max-width: 650px) {
+  .v-toolbar__content, .v-toolbar__extension {
+    margin: 0 30px !important;
+  }
+}
+
 .v-btn--active {
   text-decoration: line-through;
   background: white;
@@ -65,4 +71,14 @@ body {
   width: 10vh;
   height: 4vh;
   text-align: center;
+}
+
+.v-card--reveal {
+  align-items: center;
+  bottom: 0;
+  padding: 3vh;
+  justify-content: center;
+  opacity: .9;
+  position: absolute;
+  width: 100%;
 }

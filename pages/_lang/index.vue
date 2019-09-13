@@ -5,24 +5,35 @@
     <v-flex
       xs12
       sm8
-      md6
-      pa-5
+      md5
+      pa-3
       data-aos="zoom-in-down"
 		  data-aos-once="true"
     >
     <v-card flat
       class="mx-lg-auto">
-      <v-card-text class="display-2 font-weight-thin">
+      <v-card-text 
+        class="font-weight-thin"
+        v-bind:class="{
+              'display-2': !$vuetify.breakpoint.xs,
+              'headline': $vuetify.breakpoint.xs,
+            }"
+        >
         {{$t('header')}}
       </v-card-text>
-      <v-card-text class="subtitle-1 font-weight-regular">
+      <v-card-text 
+        class="font-weight-regular"
+        v-bind:class="{
+              'subtitle-1': !$vuetify.breakpoint.xs,
+              'body-1': $vuetify.breakpoint.xs,
+            }"
+        >
         {{$t('description')}} <br/>
         {{$t('sub-description')}}
       </v-card-text>
     </v-card>
     </v-flex>
-    <v-divider></v-divider>
-    <v-flex pa-4>
+    <v-flex pa-2>
       <Works/>
     </v-flex>
     <v-divider></v-divider>

@@ -3,7 +3,7 @@
     <v-flex 
       pa-4
       text-xs-right
-      xs9
+      xs11
       md11
       lg11
       >

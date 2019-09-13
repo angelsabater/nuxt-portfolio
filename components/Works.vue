@@ -1,67 +1,65 @@
 <template>
-	<v-flex>
-	<v-card 
-		flat
-		data-aos="fade-right"
-		data-aos-once="true"
-		v-for="item in $t('works')"
-		:key="item"
+	<v-layout 
+		row
+		wrap
 		>
-		<v-layout 
-			row 
-			wrap
-			>
-			<v-flex 
-				xs12 
-				md6
-				lg6 
-				pa-3
-				>
-				<v-img
-					:src="item.image"
-					max-width="550"
-					></v-img>
-			</v-flex>
-			<v-flex 
-				xs12 
-				md6 
-				pa-3
-				>
-			<v-card flat>
-				<v-card-text class="headline font-weight-thin">
-					<div class="status">{{item.status}}</div > {{item.title}}
-				</v-card-text>
-				<v-card-text class="subtitle-1 font-weight-thin">
-					{{item.description}} <br/>
-					<i>{{item.language}}</i> <br/><br/>
-				</v-card-text>
-				<v-layout
-					row
-					wrap
+		<v-flex 
+			py-2
+			xs12
+			md6
+			lg6
+			v-for="item in $t('works')"
+			:key="item">
+			<v-hover v-slot:default="{ hover }">
+				<v-card
+					class="mx-auto"
+					max-width="500"
+					height="600"
+					data-aos="fade-right"
+					data-aos-once="true"
 					>
-					<v-flex
-						md2
-						xs3
-						pa-3
-						v-for="tool in item.tools"
-						:key="tool"
+					<v-img
+						:src="item.image"
+						max-height="600"
 						>
-						<v-card
-							flat
-						>
-							<v-img
-								:src="tool"
-								max-width="50"
-								max-height="50"
-								></v-img>
-						</v-card>
-					</v-flex>
-				</v-layout>
-			</v-card>
-			</v-flex>
-		</v-layout>
-	</v-card>
-	</v-flex>
+						<v-expand-transition>
+							<div
+								v-if="hover"
+								class="d-flex transition-fast-in-fast-out white darken-2 v-card--reveal"
+								style="height: 100%;"
+							>
+								<v-layout
+									row
+									wrap
+									justify-center
+									>
+									<v-flex
+										md2
+										xs3
+										v-for="tool in item.tools"
+										:key="tool"
+										>
+										<v-img
+											:src="tool"
+											max-width="60"
+											max-height="60"
+											></v-img>
+									</v-flex>
+								</v-layout>
+							</div>
+							</v-expand-transition>
+						</v-img>
+					<v-card-text class="headline font-weight-thin">
+						<div class="status">{{item.status}}</div > {{item.title}}
+					</v-card-text>
+					<v-card-text class="subtitle-1 font-weight-thin">
+						{{item.description}} <br/>
+						<i>{{item.language}}</i> <br/><br/>
+					</v-card-text>
+				</v-card>
+			</v-hover>
+		</v-flex>
+	</v-layout>
 </template>
 
 
