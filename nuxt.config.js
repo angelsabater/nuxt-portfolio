@@ -9,7 +9,6 @@ export default {
     port: 8000,
     host: "127.0.0.1",
   },
-  mode: 'spa',
   head: {
     titleTemplate: 'Angel Sabater',
     title: process.env.npm_package_name || '',
