@@ -2,7 +2,7 @@
   "name": "online_portfolio",
   "version": "1.0.0",
   "description": "An online portfolio made with Nuxt.js",
-  "author": "Angel Lynn",
+  "author": "Angel Sabater",
   "private": true,
   "scripts": {
     "dev": "nuxt",

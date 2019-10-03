@@ -14,7 +14,7 @@
             "id": null,
             "image": "/yonmoque.jpg",
             "title": "Yonmoque 🎮",
-            "status": "ON-GOING",
+            "status": "RELEASED",
             "description": "Created a mobile application version of a japanese board game owned by Logy Games. It's a multi-player board game combining Shogu (Japanese Chess) and Othello (Reversi). Contributed with the game logic and game design. Beta version is now available in Google Play Store.", 
             "language": "Available in Japanese and English",
             "tools": ["/react-native.png", "/expo.png", "/google.png"]
@@ -23,10 +23,10 @@
             "id": null,
             "image": "/jflearn.jpg",
             "title": "Babel Method 👩‍🏫",
-            "status": "ON-GOING",
-            "description": "An e-learning website which enables foreigners working under different japanese companies to have japanese language courses supporting them to have the right foundation of the language. I’m mainly involved with the database administration and adding database functions for the backend. Also contributes with uploading files from the frontend going to AWS using S3.", 
+            "status": "RELEASED",
+            "description": "An e-learning website which enables foreigners working under different japanese companies to have japanese language courses supporting them to have the right foundation of the language. I’m mainly involved with the database administration and adding database functions for the backend. Also contributes with file management in AWS(S3). Alpha version is now released.", 
             "language": "Courses are available in English and Vietnamese",
-            "tools": ["/node.png", "/sql.png"]
+            "tools": ["/node.png", "/sql.png", "/aws.png"]
         },
         "tab3": {
             "id": null,

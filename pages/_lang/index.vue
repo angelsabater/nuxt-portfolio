@@ -7,6 +7,7 @@
       sm8
       md5
       pa-3
+      :pa-5="$vuetify.breakpoint.lg"
       data-aos="zoom-in-down"
 		  data-aos-once="true"
     >
