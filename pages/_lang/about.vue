@@ -3,10 +3,12 @@
     row
     wrap
     fill-height
+    justify-center
   >
     <v-flex 
         xs12 
-        md4 
+        md5
+        lg4
         justify-center
         >
         <v-img
@@ -18,8 +20,8 @@
 
     <v-flex 
         xs12 
-        md8 
-        :pa-5="$vuetify.breakpoint.lg"
+        md6 
+        class="description-about"
         justify-center
         >
         <v-card-text 

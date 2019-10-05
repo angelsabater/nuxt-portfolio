@@ -1,18 +1,20 @@
 <template>
   <v-layout
     column
+    wrap
   >
     <v-flex
       xs12
       sm8
       md5
-      pa-3
-      :pa-5="$vuetify.breakpoint.lg"
+      lg4
+      class="description-header"
       data-aos="zoom-in-down"
 		  data-aos-once="true"
     >
-    <v-card flat
-      class="mx-lg-auto">
+    <v-card 
+      flat
+    >
       <v-card-text 
         class="font-weight-thin"
         v-bind:class="{

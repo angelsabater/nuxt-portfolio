@@ -5,9 +5,10 @@
 		>
 		<v-flex 
 			py-2
+			px-2
 			xs12
 			md6
-			lg6
+			lg4
 			v-for="item in $t('works')"
 			:key="item">
 			<v-hover v-slot:default="{ hover }">

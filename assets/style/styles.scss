@@ -17,12 +17,41 @@ body {
 .v-toolbar__content, .v-toolbar__extension {
   align-items: center;
   display: flex;
-  margin: 0 150px;
+  margin: 0 100px !important;
+}
+
+.description-header {
+  padding-left: 20px;
+}
+
+.description-about {
+  padding: 10px 30px;
+}
+
+@media only screen and (min-width: 1265px) {
+  .v-toolbar__content, .v-toolbar__extension {
+    align-items: center;
+    display: flex;
+    margin: 0 150px !important;
+  }
+
+  .description-header {
+    padding-left: 60px;
+  }
+  .description-about {
+    padding: 30px 80px 40px 0;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .v-toolbar__content, .v-toolbar__extension {
     margin: 0 30px !important;
+  }
+  .description-header {
+    padding-left: 0px;
+  }
+  .description-about {
+    padding: 5px;
   }
 }
 
@@ -68,8 +97,8 @@ body {
   transition: .3s cubic-bezier(.25,.8,.5,1);
   white-space: nowrap;
   font-size: 13px;
-  width: 11vh;
-  height: 4vh;
+  width: 10vh;
+  height: 3vh;
   text-align: center;
 }
 
@@ -82,3 +111,4 @@ body {
   position: absolute;
   width: 100%;
 }
+

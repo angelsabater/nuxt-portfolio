@@ -45,6 +45,12 @@
             "description": "A system development thesis aiming to create an online reservation and billing system for West Makati Hotel wherein an official website will be available and readily accessible for online reservation where the guests can reserve straightforward substituting the hotel's current manual process to enable them to have an accurate output, a better record keeping and a more reliable form of advertisement.", 
             "language": "Available in English",
             "tools": ["/php.png", "/sql.png"]
+        },
+        "tab5": {
+            "id": null,
+            "image": "/comingsoon.jpg",
+            "title": "COMING SOON",
+            "status": "SOON"
         }
     },
     "about": {
