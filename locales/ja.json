@@ -1,5 +1,5 @@
 {
-    "header": "こんにちは！エンジェルと申します。",
+    "header": "はじめまして！エンジェルと申します。",
     "description": "東京にバックエンドWeb開発者。",
     "sub-description": "主にバックエンド開発とデータベース管理に関与しています。",
     "nav": {
@@ -55,8 +55,8 @@
     },
     "about": {
         "name": "エンジェル・リン・サバテル",
-        "first_paragraph": "Born and raised in the Philippines. Graduated college majoring Information Technology in University of the East located at Manila, Philippines. I started having interest with coding back in High School until I went to college and found myself more engaged with programming.",
+        "first_paragraph": "フィリピンから参りました。生まれも育ちもフィリピンです。フィリピンの「University of the East」という大学で情報技術を専攻していました。高校からコーディングに興味を持ち始めまし、大学に入るときにプログラミングにもっと情熱的になりました。",
         "second_paragraph": "バックエンドエンジニアとして働いており、日本語学校の留学生です。日本語学校では、ITと日本語を勉強しています。日本に行ったとき、最初に使用した言語は「Laravel」でした。それから、MVCフレームワークに興味を持ち始めました。今まで、いろいろな言語が学んでおりました。Laravel、Ruby on Rails、Node.jsというプログラミング言語を使った経験があります。バイトを始めたときからバックエンドのプログラミングとデータベース管理を担当しました。テクノロジーが社会をどう変革していくかに興味があります。テクノロジーが社会をどう変革していくかに興味があります。",
-        "third_paragraph": "If you don't see me coding or playing online games, I'm probably sleeping or reading a book of Mark Manson which I recommend by the way."
+        "third_paragraph": "オンラインゲームやコーディング以外の趣味は、マークマンソンの本を読むことです。"
     }
 }

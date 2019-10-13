@@ -67,7 +67,7 @@
           </v-btn>
           <v-btn
             outlined color="yellow"
-            href="https://drive.google.com/file/d/1Wsl6MvhywmMz2OcVY1s-lfmwWlqOsTZk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CwqrGE8wILlyF-4qDcBPAYRhGrZI3oqb/view?usp=sharing"
             target="_blank"
             >
             履歴書

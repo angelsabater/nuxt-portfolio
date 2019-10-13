@@ -6,8 +6,7 @@
         "works": "works",
         "workLink": "/",
         "about": "about",
-        "aboutLink": "/about",
-        "resume": "résumé"
+        "aboutLink": "/about"
     },
     "works": {
         "tab1": {
@@ -57,6 +56,6 @@
         "name": "Angel Lynn Sabater",
         "first_paragraph": "Born and raised in the Philippines. Graduated college majoring in Information Technology at the University of the East located in Manila, Philippines. I started having an interest in coding back in High School until I went to college and found myself more engaged with programming.",
         "second_paragraph": "Currently based in Tokyo, Japan. Started my first job as a Junior Web Developer. Still exploring my way in the technology world but also believes that we're all babies when it comes to technology knowing that something changes each second in our own expanding world.",
-        "third_paragraph": "If you don't see me coding or playing online games, I'm probably sleeping or reading a book by Mark Manson which I recommend by the way."
+        "third_paragraph": "If you don't see me coding or playing online games, I'm probably reading a book by Mark Manson which I recommend by the way."
     }
 }
