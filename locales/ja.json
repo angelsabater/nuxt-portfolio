@@ -42,7 +42,7 @@
             "image": "/wmh.jpg",
             "title": "WMH 🏢",
             "status": "終わった",
-            "description": "A system development thesis aiming to create an online reservation and billing system for West Makati Hotel wherein an official website will be available and readily accessible for online reservation where the guests can reserve straightforward substituting the hotel's current manual process to enable them to have an accurate output, a better record keeping and a more reliable form of advertisement.", 
+            "description": "WMHのお客様のペーパーレス取引をサポートするために、オンライン予約やオンライン請求システムを作る。このシステムは正確な入出力やより良い記録の保存に目指す。ユーザーサイドのバックエンドとフロントエンドを開発し、データベース計画や管理を担当し、テストとリリースをします。", 
             "language": "英語版",
             "tools": ["/php.png", "/sql.png"]
         },
