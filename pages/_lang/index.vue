@@ -16,11 +16,7 @@
       flat
     >
       <v-card-text 
-        class="font-weight-thin"
-        v-bind:class="{
-              'display-2': !$vuetify.breakpoint.xs,
-              'headline': $vuetify.breakpoint.xs,
-            }"
+        class="font-weight-thin headline"
         >
         {{$t('header')}}
       </v-card-text>

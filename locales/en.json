@@ -15,7 +15,7 @@
             "image": "/yonmoque.jpg",
             "title": "Yonmoque 🎮",
             "status": "RELEASED",
-            "description": "Created a mobile application version of a japanese board game owned by Logy Games. It's a multi-player board game combining Shogu (Japanese Chess) and Othello (Reversi). Contributed with the game logic and game design. Beta version is now available in Google Play Store.", 
+            "description": "Created a mobile application version of a Japanese board game owned by Logy Games. It's a multi-player board game combining Shogi (Japanese Chess) and Othello (Reversi). Contributed to the game logic and game design. Beta version is now available on Google Play Store.", 
             "language": "Available in Japanese and English",
             "tools": ["/react-native.png", "/expo.png", "/google.png"]
         },
@@ -24,7 +24,7 @@
             "image": "/jflearn.jpg",
             "title": "Babel Method 👩‍🏫",
             "status": "RELEASED",
-            "description": "An e-learning website which enables foreigners working under different japanese companies to have japanese language courses supporting them to have the right foundation of the language. I’m mainly involved with the database administration and adding database functions for the backend. Also contributes with file management in AWS(S3). Alpha version is now released.", 
+            "description": "An e-learning website which enables foreigners working under different Japanese companies to have Japanese language courses supporting them to have the right foundation of the language. I’m mainly involved with the database administration and adding database functions for the backend. Contributed to file management in AWS(S3). Alpha version is now released.", 
             "language": "Courses are available in English and Vietnamese",
             "tools": ["/node.png", "/sql.png", "/aws.png"]
         },
@@ -33,14 +33,14 @@
             "image": "/dnus.jpg",
             "title": "DNUS 🌏",
             "status": "RELEASED",
-            "description": "A recruitment website for foreigners who are actively searching for job opportunities in Japan. Supporting documents of the company or the service can be downloaded from the website making it different from other existing recruitment sites. Contributed with both frontend and backend as support developer. Also in charged of the database administration and authentication.", 
+            "description": "A recruitment website for foreigners who are actively searching for job opportunities in Japan. Supporting documents of the company or the service can be downloaded from the website making it different from other existing recruitment sites. Contributed with both frontend and backend as support developers. Also been in charge of the database administration and authentication.", 
             "language": "Available in Japanese",
             "tools": ["/ruby.png", "/sql.png"]
         },
         "tab4": {
             "id": null,
             "image": "/wmh.jpg",
-            "title": "WMH Reservation System 🏢",
+            "title": "WMH 🏢",
             "status": "RELEASED",
             "description": "A system development thesis aiming to create an online reservation and billing system for West Makati Hotel wherein an official website will be available and readily accessible for online reservation where the guests can reserve straightforward substituting the hotel's current manual process to enable them to have an accurate output, a better record keeping and a more reliable form of advertisement.", 
             "language": "Available in English",
@@ -54,6 +54,9 @@
         }
     },
     "about": {
-        "name": "Angel Lynn Sabater"
+        "name": "Angel Lynn Sabater",
+        "first_paragraph": "Born and raised in the Philippines. Graduated college majoring in Information Technology at the University of the East located in Manila, Philippines. I started having an interest in coding back in High School until I went to college and found myself more engaged with programming.",
+        "second_paragraph": "Currently based in Tokyo, Japan. Started my first job as a Junior Web Developer. Still exploring my way in the technology world but also believes that we're all babies when it comes to technology knowing that something changes each second in our own expanding world.",
+        "third_paragraph": "If you don't see me coding or playing online games, I'm probably sleeping or reading a book by Mark Manson which I recommend by the way."
     }
 }

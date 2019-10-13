@@ -16,35 +16,6 @@
             max-width="430"
             max-height="750"
             ></v-img>
-    </v-flex>
-
-    <v-flex 
-        xs12 
-        md6 
-        class="description-about"
-        justify-center
-        >
-        <v-card-text 
-          class="font-weight-thin"
-          v-bind:class="{
-            'display-1': !$vuetify.breakpoint.xs,
-            'headline': $vuetify.breakpoint.xs,
-          }"
-        >
-            {{$t('about.name')}} 👩🏻‍💻<br/>
-        </v-card-text>
-        <v-card-text class="subtitle-1 font-weight-regular">
-            20-year-old born and raised in the Philippines. Graduated college majoring Information Technology in University of the East located at Manila, Philippines. I started having interest with coding back in High School until I went to college and found myself more engaged with programming.<br/><br/>
-
-            Currently based in Tokyo, Japan. Started my first job as a Junior Web Developer. Still exploring
-            my way in the technology world but also believes that we're all babies when it comes to technology knowing that
-            something changes each second in our own expanding world.
-            
-            <br/>
-
-            <br/><br/>
-            If you don't see me coding or playing online games, I'm probably sleeping or reading a book of Mark Manson which I recommend by the way.
-        </v-card-text>
         <v-card-text>
           <v-btn 
             icon
@@ -66,6 +37,48 @@
             target="_blank"
             >
             <v-icon size="24px">fa-instagram</v-icon>
+          </v-btn>
+      </v-card-text>
+    </v-flex>
+
+    <v-flex 
+        xs12 
+        md6 
+        class="description-about"
+        justify-center
+        >
+        <v-card-text 
+          class="font-weight-thin headline"
+        >
+            {{$t('about.name')}} 👩🏻‍💻<br/>
+        </v-card-text>
+        <v-card-text class="subtitle-1 font-weight-regular">
+            {{$t('about.first_paragraph')}}<br/><br/>
+            {{$t('about.second_paragraph')}}<br/><br/><br/>
+            {{$t('about.third_paragraph')}}
+        </v-card-text>
+        <v-card-text>
+          <v-btn
+            outlined color="yellow"
+            href="https://drive.google.com/file/d/1jL_HaauxqpKMSTi0qXkAf4pljiBzhtmp/view?usp=sharing"
+            target="_blank"
+            >
+            Résumé
+          </v-btn>
+          <v-btn
+            outlined color="yellow"
+            href="https://drive.google.com/file/d/1Wsl6MvhywmMz2OcVY1s-lfmwWlqOsTZk/view?usp=sharing"
+            target="_blank"
+            >
+            履歴書
+          </v-btn>
+          <v-btn
+            outlined color="yellow"
+            href="https://drive.google.com/file/d/1jL_HaauxqpKMSTi0qXkAf4pljiBzhtmp/view?usp=sharing"
+            target="_blank"
+            disabled
+            >
+            職務経歴書
           </v-btn>
       </v-card-text>
     </v-flex>

@@ -54,8 +54,8 @@
 						<div class="status">{{item.status}}</div > {{item.title}}
 					</v-card-text>
 					<v-card-text class="subtitle-1 font-weight-thin">
-						{{item.description}} <br/>
-						<i>{{item.language}}</i> <br/><br/>
+						{{item.description}} <br/><br/>
+						{{item.language}} <br/><br/>
 					</v-card-text>
 				</v-card>
 			</v-hover>
