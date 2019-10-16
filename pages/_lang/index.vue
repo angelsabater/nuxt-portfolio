@@ -30,6 +30,29 @@
         {{$t('description')}} <br/>
         {{$t('sub-description')}}
       </v-card-text>
+      <v-card-text>
+          <v-btn 
+            icon
+            href="https://www.linkedin.com/in/albsabater/"
+            target="_blank"
+            >
+            <v-icon size="24px">fa-linkedin</v-icon>
+          </v-btn>
+          <v-btn 
+            icon
+            href="https://github.com/angelsbtr"
+            target="_blank"
+            >
+            <v-icon size="24px">fa-github</v-icon>
+          </v-btn>
+          <v-btn 
+            icon
+            href="https://www.instagram.com/albsabater/"
+            target="_blank"
+            >
+            <v-icon size="24px">fa-instagram</v-icon>
+          </v-btn>
+      </v-card-text>
     </v-card>
     </v-flex>
     <v-flex pa-2>

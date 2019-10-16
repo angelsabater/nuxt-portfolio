@@ -16,29 +16,6 @@
             max-width="430"
             max-height="750"
             ></v-img>
-        <v-card-text>
-          <v-btn 
-            icon
-            href="https://www.linkedin.com/in/albsabater/"
-            target="_blank"
-            >
-            <v-icon size="24px">fa-linkedin</v-icon>
-          </v-btn>
-          <v-btn 
-            icon
-            href="https://github.com/angelsbtr"
-            target="_blank"
-            >
-            <v-icon size="24px">fa-github</v-icon>
-          </v-btn>
-          <v-btn 
-            icon
-            href="https://www.instagram.com/albsabater/"
-            target="_blank"
-            >
-            <v-icon size="24px">fa-instagram</v-icon>
-          </v-btn>
-      </v-card-text>
     </v-flex>
 
     <v-flex 
