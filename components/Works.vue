@@ -55,7 +55,10 @@
 					</v-card-text>
 					<v-card-text class="subtitle-1 font-weight-thin">
 						{{item.description}} <br/><br/>
-						{{item.language}} <br/><br/>
+						<v-icon size="15px">fa-language</v-icon> {{item.language}} <br/>
+						<v-icon size="15px">fa-link</v-icon> 
+						<v-btn flat text :href='`${item.link}`' target="_blank"> {{item.linkText}} </v-btn>
+		  
 					</v-card-text>
 				</v-card>
 			</v-hover>

@@ -35,27 +35,26 @@
             {{$t('about.third_paragraph')}}
         </v-card-text>
         <v-card-text>
-          <v-btn
-            outlined color="yellow"
-            href="https://drive.google.com/file/d/1jL_HaauxqpKMSTi0qXkAf4pljiBzhtmp/view?usp=sharing"
+          <v-btn 
+            icon
+            href="https://www.linkedin.com/in/albsabater/"
             target="_blank"
             >
-            Résumé
+            <v-icon size="24px">fa-linkedin</v-icon>
           </v-btn>
-          <v-btn
-            outlined color="yellow"
-            href="https://drive.google.com/file/d/1CwqrGE8wILlyF-4qDcBPAYRhGrZI3oqb/view?usp=sharing"
+          <v-btn 
+            icon
+            href="https://github.com/angelsbtr"
             target="_blank"
             >
-            履歴書
+            <v-icon size="24px">fa-github</v-icon>
           </v-btn>
-          <v-btn
-            outlined color="yellow"
-            href="https://drive.google.com/file/d/1jL_HaauxqpKMSTi0qXkAf4pljiBzhtmp/view?usp=sharing"
+          <v-btn 
+            icon
+            href="mailto:sabaterggl@gmail.com"
             target="_blank"
-            disabled
             >
-            職務経歴書
+            <v-icon size="24px">fa-envelope</v-icon>
           </v-btn>
       </v-card-text>
     </v-flex>

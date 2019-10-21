@@ -47,10 +47,10 @@
           </v-btn>
           <v-btn 
             icon
-            href="https://www.instagram.com/albsabater/"
+            href="mailto:sabaterggl@gmail.com"
             target="_blank"
             >
-            <v-icon size="24px">fa-instagram</v-icon>
+            <v-icon size="24px">fa-envelope</v-icon>
           </v-btn>
       </v-card-text>
     </v-card>

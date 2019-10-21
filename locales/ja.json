@@ -16,8 +16,10 @@
             "title": "ヨンモク 🎮",
             "status": "開発中",
             "description": "ロジーゲームの「ヨンモク」というボードゲームのモバイルアプリケーションを作成しました。オセロと将棋の組み合わせみたいな対人ゲームです。このプロダクトを作る間、ゲーム開発をゼロから学んできました。チームと一緒に論理を開発し、勝ち機能を作り、遊び方のページを作ります。ベータ版はGoogleストアでダウンロードできます。ぜひ一度挑戦してみてください。", 
-            "language": "☆ 英語版と日本語版",
-            "tools": ["/react-native.png", "/expo.png", "/google.png"]
+            "language": "英語版と日本語版",
+            "tools": ["/react-native.png", "/expo.png", "/google.png"],
+            "link": "https://play.google.com/store/apps/details?id=com.okutama.yonmoque",
+            "linkText": "ヨンモク"
         },
         "tab2": {
             "id": null,
@@ -25,8 +27,10 @@
             "title": "Babelメソッド 👩‍🏫",
             "status": "開発中",
             "description": "「Babelメソッド」という外国人従業員向けに設計された日本語Eラーニングサポートです。日本企業で働く外国人向けの日本語言語学習システムです。 バックエンドを開発し、データベース管理を担当し、AWSのS3やSESというサービスの設定と接続をする。", 
-            "language": "☆ コースは英語とベトナム語で利用可能です",
-            "tools": ["/node.png", "/sql.png", "/aws.png"]
+            "language": "コースは英語とベトナム語で利用可能です",
+            "tools": ["/node.png", "/sql.png", "/aws.png"],
+            "link": "https://babelmethod.com/",
+            "linkText": "Babelメソッド"
         },
         "tab3": {
             "id": null,
@@ -34,8 +38,10 @@
             "title": "DNUS 🌏",
             "status": "終わった",
             "description": "DOC株式会社の採用サービスです。外国人を採用したい経営者と人事のためのワンストップウェブサイトです。バックエンドとフロントエンドスにサポートし、データベース管理を担当し、認証の設定と接続をする。", 
-            "language": "☆ 日本語版",
-            "tools": ["/ruby.png", "/sql.png"]
+            "language": "日本語版",
+            "tools": ["/ruby.png", "/sql.png"],
+            "link": "https://dnus.jp/",
+            "linkText": "DNUS"
         },
         "tab4": {
             "id": null,
@@ -43,14 +49,10 @@
             "title": "WMH 🏢",
             "status": "終わった",
             "description": "WMHのお客様のペーパーレス取引をサポートするために、オンライン予約やオンライン請求システムを作る。このシステムは正確な入出力やより良い記録の保存に目指す。ユーザーサイドのバックエンドとフロントエンドを開発し、データベース計画や管理を担当し、テストとリリースをします。", 
-            "language": "☆ 英語版",
-            "tools": ["/php.png", "/sql.png"]
-        },
-        "tab5": {
-            "id": null,
-            "image": "/comingsoon.jpg",
-            "title": "COMING SOON",
-            "status": "SOON"
+            "language": "英語版",
+            "tools": ["/php.png", "/sql.png"],
+            "link": "",
+            "linkText": "Link not available"
         }
     },
     "about": {
