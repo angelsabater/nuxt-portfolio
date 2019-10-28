@@ -1,6 +1,6 @@
 {
     "header": "Hi, I'm Angel.",
-    "description": "A back-end web developer based in Tokyo, Japan.",
+    "description": "A backend web developer based in Tokyo, Japan.",
     "sub-description": "Mainly involved with back-end development and database management.",
     "nav": {
         "works": "works",
@@ -31,7 +31,18 @@
             "link": "https://babelmethod.com/",
             "linkText": "Babel Method"
         },
-        "tab3": {
+        "tab4": {
+            "id": null,
+            "image": "/blog.jpg",
+            "title": "Online Blog ⌨️",
+            "status": "RELEASED",
+            "description": "An online blog inspired website created to test laravel skills. A blog where anyone can register and post public or private blog posts. Public posts can be seen in the dashboard and private posts can be seen only by the owner itself. Created front-end up to back-end development. ",
+            "language": "Available in English",
+            "tools": ["/laravel.png", "/postgres.png", "/heroku.png"],
+            "link": "https://blog-20190001025.herokuapp.com",
+            "linkText": "Online Blog"
+        },
+        "tab5": {
             "id": null,
             "image": "/dnus.jpg",
             "title": "DNUS 🌏",
@@ -42,14 +53,14 @@
             "link": "https://dnus.jp/",
             "linkText": "DNUS"
         },
-        "tab4": {
+        "tab6": {
             "id": null,
             "image": "/wmh.jpg",
             "title": "WMH 🏢",
             "status": "RELEASED",
             "description": "A system development thesis aiming to create an online reservation and billing system for West Makati Hotel wherein an official website will be available and readily accessible for online reservation where the guests can reserve straightforward substituting the hotel's current manual process to enable them to have an accurate output, a better record keeping and a more reliable form of advertisement.", 
             "language": "Available in English",
-            "tools": ["/php.png", "/sql.png"],
+            "tools": ["/sql.png", "/php.png", "/cpanel.png"],
             "link": "",
             "linkText": "Link not available"
             

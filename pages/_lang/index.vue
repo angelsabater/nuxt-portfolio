@@ -10,7 +10,6 @@
       lg4
       class="description-header"
       data-aos="zoom-in-down"
-		  data-aos-once="true"
     >
     <v-card 
       flat

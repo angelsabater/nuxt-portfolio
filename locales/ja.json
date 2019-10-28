@@ -32,22 +32,22 @@
             "link": "https://babelmethod.com/",
             "linkText": "Babelメソッド"
         },
-        "tab3": {
+        "tab5": {
             "id": null,
             "image": "/dnus.jpg",
             "title": "DNUS 🌏",
-            "status": "終わった",
+            "status": "開発済み",
             "description": "DOC株式会社の採用サービスです。外国人を採用したい経営者と人事のためのワンストップウェブサイトです。バックエンドとフロントエンドスにサポートし、データベース管理を担当し、認証の設定と接続をする。", 
             "language": "日本語版",
             "tools": ["/ruby.png", "/sql.png"],
             "link": "https://dnus.jp/",
             "linkText": "DNUS"
         },
-        "tab4": {
+        "tab6": {
             "id": null,
             "image": "/wmh.jpg",
             "title": "WMH 🏢",
-            "status": "終わった",
+            "status": "開発済み",
             "description": "WMHのお客様のペーパーレス取引をサポートするために、オンライン予約やオンライン請求システムを作る。このシステムは正確な入出力やより良い記録の保存に目指す。ユーザーサイドのバックエンドとフロントエンドを開発し、データベース計画や管理を担当し、テストとリリースをします。", 
             "language": "英語版",
             "tools": ["/php.png", "/sql.png"],
