@@ -31,7 +31,7 @@
         </v-card-text>
         <v-card-text class="subtitle-1 font-weight-regular">
             {{$t('about.first_paragraph')}}<br/><br/>
-            {{$t('about.second_paragraph')}}<br/><br/><br/>
+            {{$t('about.second_paragraph')}}<br/><br/>
             {{$t('about.third_paragraph')}}
         </v-card-text>
         <v-card-text>
